@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap');
+
+
+
+.bg-image{
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Mountains-1412683.svg/1280px-Mountains-1412683.svg.png) no-repeat center center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #111;
+  /* -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px); */
+  
+
+  /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+
+}
+
+body{
+  text-align: center;
+  align-items: center;
+  
+ 
+}
+
+.header img { 
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #555;
+} 
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+
+.App {
+  text-align: center;
+  align-items: center;
+  
+
+  color: antiquewhite;
+  /* align-items: center; */
+}
+
+.p{
+  font-weight: 100;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #8dfbf0;
+  font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+  color: #111;
+}
+
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.img{
+  
+  border-radius:30px;
+  width:300px;
+  height: 300px;
+  background-image:url('Images/ViceImage.jpg');
+  opacity: 1;
+  background-size:cover;
+  margin-top:50px;
+  object-fit: cover; 
+  border-width: 5ch;
+
+
+
+}
+
+
+
+.Intro{
+  
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    margin-bottom: -20px;
+    text-indent: -50%;
+    color: rgb(254, 138, 200);
+    
+  
+}
+
+
+.Names{
+  margin-bottom: -6px;
+  font-family: 'Dancing Script', cursive;
+  color: rgb(254, 138, 200);
+  size: 35px;
+  padding:4px;
+  text-indent: 10%;
+}
+
+.navbar-nav{
+
+  text-decoration-color: #61dafb;
+  color: #61dafb;
+}
+
+.p1{
+  font-family: 'Dancing Script', cursive;
+  color: aqua;
+  size: 10px;
+  padding:4px;
+
+}
+
+/* Some new Stylings*/
+
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 33.3%;
+  padding: 0 10px;
+  align-items: center;
+  
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 0 -5px;
+  text-align: center;
+  align-items: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display:inline-block;
+    text-align: center;
+   
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  width: 500px;
+  height: 500px;
+  text-indent: 10%;
+  align-items: center;
+  background-image:url('Images/background.jpg');
+
+
+}
+
+
+p{
+  text-indent: 10%;
+}
